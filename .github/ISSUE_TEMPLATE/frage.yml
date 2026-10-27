@@ -1,0 +1,34 @@
+name: Frage zur Anwendung
+description: Eine Frage zur Bedienung von 3DPPM stellen.
+title: "[Frage]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bitte schau zuerst in die Hilfe der Anwendung und in vorhandene Issues.
+        Beschreibe keine Kennwörter, Zugriffstoken oder persönlichen Daten.
+  - type: input
+    id: version
+    attributes:
+      label: 3DPPM-Version
+      placeholder: "Zum Beispiel: 0.1.7.xxx"
+    validations:
+      required: true
+  - type: input
+    id: bereich
+    attributes:
+      label: Bereich der Anwendung
+      placeholder: "Zum Beispiel: Profile, Versuche, Filamente oder Einstellungen"
+  - type: textarea
+    id: frage
+    attributes:
+      label: Deine Frage
+      description: Was möchtest du erreichen und an welcher Stelle kommst du nicht weiter?
+    validations:
+      required: true
+  - type: textarea
+    id: versucht
+    attributes:
+      label: Bereits ausprobiert
+      description: Optional. Welche Schritte hast du bereits versucht?
+
