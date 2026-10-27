@@ -1,0 +1,72 @@
+name: Fehlerbericht
+description: Einen Fehler in 3DPPM melden.
+title: "[Fehler]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für deine Rückmeldung. Bitte suche zuerst nach einem vorhandenen Issue.
+        Dieses Issue und seine Anhänge sind öffentlich. Bitte keine Kennwörter, Token, persönlichen Daten oder vollständigen Datenbanken hochladen.
+  - type: input
+    id: version
+    attributes:
+      label: 3DPPM-Version
+      description: Die genaue Versionsnummer findest du in der Anwendung.
+      placeholder: "Zum Beispiel: 0.1.7.xxx"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows-Version
+      placeholder: "Zum Beispiel: Windows 11"
+    validations:
+      required: true
+  - type: dropdown
+    id: datenbank
+    attributes:
+      label: Verwendete Datenbank
+      options:
+        - SQLite (lokal)
+        - MySQL (zentral)
+        - Unbekannt
+    validations:
+      required: true
+  - type: input
+    id: bereich
+    attributes:
+      label: Betroffener Bereich
+      placeholder: "Zum Beispiel: Profile, Versuche, Filamente, Stammdaten oder Einstellungen"
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Schritte bis zum Fehler
+      description: Wie lässt sich der Fehler nachvollziehen?
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was sollte passieren?
+    validations:
+      required: true
+  - type: textarea
+    id: tatsaechlich
+    attributes:
+      label: Tatsächliches Verhalten und Fehlermeldung
+      description: Was passiert stattdessen? Gib eine vorhandene Fehlermeldung möglichst vollständig an.
+    validations:
+      required: true
+  - type: textarea
+    id: anhaenge
+    attributes:
+      label: Screenshots oder weitere Hinweise
+      description: Optional. Entferne vor dem Hochladen persönliche oder vertrauliche Inhalte.
+
