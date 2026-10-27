@@ -1,0 +1,41 @@
+name: Funktionswunsch
+description: Eine Verbesserung oder neue Funktion für 3DPPM vorschlagen.
+title: "[Wunsch]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Beschreibe bitte vor allem den Nutzen und deine Arbeitsweise. Prüfe zuerst, ob es bereits einen passenden Wunsch gibt.
+        Ein eingereichter Wunsch ist noch keine Zusage für einen Umsetzungstermin.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem möchtest du lösen?
+      description: Beschreibe die Situation aus deinem Arbeitsalltag.
+    validations:
+      required: true
+  - type: textarea
+    id: wunsch
+    attributes:
+      label: Gewünschtes Verhalten
+      description: Wie sollte 3DPPM dich dabei unterstützen?
+    validations:
+      required: true
+  - type: textarea
+    id: nutzen
+    attributes:
+      label: Nutzen der Verbesserung
+      description: Was würde dadurch einfacher oder möglich?
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Bisherige Lösung oder Alternativen
+      description: Optional. Wie löst du die Aufgabe heute?
+  - type: textarea
+    id: beispiele
+    attributes:
+      label: Beispiele oder Skizzen
+      description: Optional. Bitte keine persönlichen oder vertraulichen Inhalte veröffentlichen.
+
