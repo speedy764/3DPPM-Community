@@ -1,6 +1,6 @@
 # In der 3DPPM-Community mitwirken
 
-🌐 Sprache / Language: 🇩🇪 Deutsch | 🇬🇧 English
+🌐 **Language / Sprache:** 🇩🇪 Deutsch | **[🇬🇧 English](CONTRIBUTING.en.md)**
 
 Du kannst 3DPPM durch Fehlerberichte, Anwendungserfahrungen, Fragen und Funktionswünsche mitgestalten.
 
