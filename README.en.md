@@ -16,9 +16,9 @@ Only **public releases** are provided. New versions are announced directly withi
 
 ## Get Involved
 
-- [Report a bug](https://github.com/speedy764/3DPPM-Community/issues/new?template=fehlerbericht.yml)
-- [Request a feature](https://github.com/speedy764/3DPPM-Community/issues/new?template=funktionswunsch.yml)
-- [Ask a question](https://github.com/speedy764/3DPPM-Community/issues/new?template=frage.yml)
+- [Report a bug](https://github.com/speedy764/3DPPM-Community/issues/new?template=bug_report.en.yml)
+- [Request a feature](https://github.com/speedy764/3DPPM-Community/issues/new?template=feature_request.en.yml)
+- [Ask a question](https://github.com/speedy764/3DPPM-Community/issues/new?template=question.en.yml)
 - [Browse existing issues](https://github.com/speedy764/3DPPM-Community/issues)
 
 You do not need a GitHub account to browse the repository or download releases. A GitHub account is required to create issues or post comments.
@@ -27,8 +27,8 @@ Before submitting a new issue, please check whether a similar topic has already 
 
 ## Help and Documentation
 
-- [Getting Started, Backups and Updates](docs/ERSTE_SCHRITTE.md)
-- [Community Contribution Guidelines](CONTRIBUTING.md)
+- [Getting Started, Backups and Updates](docs/GETTING_STARTED.en.md)
+- [Community Contribution Guidelines](CONTRIBUTING.en.md)
 - Comprehensive documentation is available directly within 3DPPM through the integrated Help feature.
 
 When reporting a bug, always include the 3DPPM version you are using.
