@@ -9,7 +9,7 @@ Ziel von 3DPPM ist es, die Optimierung von 3D-Druckprozessen nachvollziehbar, re
 
 [Fertige Versionen und Versionshinweise öffnen](https://github.com/speedy764/3DPPM-Community/releases)
 
-Veröffentlicht werden fertige Build-Pakete für Anwender. Wenn dort noch kein Paket angeboten wird, wurde noch keine öffentliche Version bereitgestellt. Ein Eintrag im Repository oder ein neues Issue ist keine neue Programmversion.
+Es werden ausschließlich öffentliche Releases (Public Releases) bereitgestellt. Neue Versionen werden direkt in 3DPPM angezeigt. Die Anwendung unterstützt eine integrierte Update-Funktion, mit der verfügbare Aktualisierungen direkt aus 3DPPM heraus installiert werden können.
 
 ## Mitgestalten
 
