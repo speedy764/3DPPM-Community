@@ -1,0 +1,40 @@
+name: Feature Request (English)
+description: Suggest an improvement or a new feature for 3DPPM.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please focus on the benefits and your workflow. Check first whether a similar feature request already exists.
+        Submitting a feature request does not guarantee an implementation date.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What Problem Would You Like to Solve?
+      description: Describe the situation in your day-to-day work.
+    validations:
+      required: true
+  - type: textarea
+    id: wunsch
+    attributes:
+      label: Desired Behavior
+      description: How should 3DPPM help you with this?
+    validations:
+      required: true
+  - type: textarea
+    id: nutzen
+    attributes:
+      label: Benefits of the Improvement
+      description: What would become easier or possible?
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Current Workaround or Alternatives
+      description: Optional. How do you handle this task today?
+  - type: textarea
+    id: beispiele
+    attributes:
+      label: Examples or Sketches
+      description: Optional. Do not publish personal or confidential content.

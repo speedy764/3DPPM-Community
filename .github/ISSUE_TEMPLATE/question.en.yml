@@ -1,0 +1,33 @@
+name: Question (English)
+description: Ask a question about using 3DPPM.
+title: "[Question]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the application's Help and existing issues first.
+        Do not include passwords, access tokens, or personal information.
+  - type: input
+    id: version
+    attributes:
+      label: 3DPPM Version
+      placeholder: "For example: 0.1.7.xxx"
+    validations:
+      required: true
+  - type: input
+    id: bereich
+    attributes:
+      label: Application Area
+      placeholder: "For example: Profiles, experiments, filaments, or settings"
+  - type: textarea
+    id: frage
+    attributes:
+      label: Your Question
+      description: What are you trying to achieve, and where are you stuck?
+    validations:
+      required: true
+  - type: textarea
+    id: versucht
+    attributes:
+      label: What You Have Already Tried
+      description: Optional. Which steps have you already tried?

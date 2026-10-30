@@ -1,0 +1,71 @@
+name: Bug Report (English)
+description: Report a bug in 3DPPM.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your feedback. Please search for an existing issue first.
+        This issue and its attachments are public. Do not upload passwords, tokens, personal information, or complete databases.
+  - type: input
+    id: version
+    attributes:
+      label: 3DPPM Version
+      description: You can find the exact version number in the application.
+      placeholder: "For example: 0.1.7.xxx"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows Version
+      placeholder: "For example: Windows 11"
+    validations:
+      required: true
+  - type: dropdown
+    id: datenbank
+    attributes:
+      label: Database Used
+      options:
+        - SQLite (local)
+        - MySQL (central)
+        - Unknown
+    validations:
+      required: true
+  - type: input
+    id: bereich
+    attributes:
+      label: Affected Area
+      placeholder: "For example: Profiles, experiments, filaments, master data, or settings"
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Steps to Reproduce
+      description: How can the bug be reproduced?
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Expected Behavior
+      description: What should happen?
+    validations:
+      required: true
+  - type: textarea
+    id: tatsaechlich
+    attributes:
+      label: Actual Behavior and Error Message
+      description: What happens instead? Include the full error message whenever possible.
+    validations:
+      required: true
+  - type: textarea
+    id: anhaenge
+    attributes:
+      label: Screenshots or Additional Information
+      description: Optional. Remove personal or confidential content before uploading.
