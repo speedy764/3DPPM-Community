@@ -7,6 +7,8 @@ Willkommen bei der Community für **3D-Print Profile Management (3DPPM)**.
 3DPPM ist eine Software zur Verwaltung, Optimierung und Auswertung von 3D-Druckprofilen. Die Anwendung unterstützt dabei, Druckeinstellungen systematisch zu testen, Ergebnisse zu dokumentieren und optimale Druckprofile für unterschiedliche Drucker, Filamente und Druckanforderungen zu entwickeln.
 Ziel von 3DPPM ist es, die Optimierung von 3D-Druckprozessen nachvollziehbar, reproduzierbar und effizient zu gestalten.
 
+<img width="814" height="849" alt="image" src="https://github.com/user-attachments/assets/65faba52-d171-403e-adf1-0bc9e877102f" />
+
 ## Downloads und Versionshinweise
 
 [Fertige Versionen und Versionshinweise öffnen](https://github.com/speedy764/3DPPM-Community/releases)
