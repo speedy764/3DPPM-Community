@@ -28,7 +28,7 @@ Zum Lesen und Herunterladen brauchst du kein GitHub-Konto. Für eigene Issues un
 
 - [Erste Schritte, Sicherung und Updates](docs/ERSTE_SCHRITTE.md)
 - [Hinweise für Community-Beiträge](CONTRIBUTING.md)
-- [Häufige Fragen (FAQ)](docs/FAQ_DE.md)
+- [3DPPM – Häufige Fragen (FAQ)](docs/FAQ_DE.md)
 - Die ausführliche Hilfe ist in 3DPPM über die Hilfe-Schaltfläche erreichbar.
 
 Bitte gib bei Fehlern immer die verwendete 3DPPM-Version an. Teile nur die zur Beschreibung nötigen Informationen. Kennwörter, Zugriffstoken, persönliche Daten und vollständige Datenbanken gehören nicht in öffentliche Issues.
