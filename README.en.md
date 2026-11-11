@@ -30,6 +30,7 @@ Before submitting a new issue, please check whether a similar topic has already 
 
 - [Getting Started, Backups and Updates](docs/GETTING_STARTED.en.md)
 - [Community Contribution Guidelines](CONTRIBUTING.en.md)
+- [3DPPM – Frequently asked questions (FAQ)](docs/FAQ_EN.md)
 - Comprehensive documentation is available directly within 3DPPM through the integrated Help feature.
 
 When reporting a bug, always include the 3DPPM version you are using.
